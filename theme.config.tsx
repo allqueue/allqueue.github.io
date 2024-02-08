@@ -13,6 +13,11 @@ const config: DocsThemeConfig = {
   footer: {
     text: 'Allqueue blog',
   },
+  useNextSeoProps() {
+    return {
+      titleTemplate: '%s - Allqueue blog'
+    }
+  }
 }
 
 export default config
