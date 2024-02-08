@@ -2,7 +2,7 @@ import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
-  logo: <span>Allqueue blog</span>,
+  logo: <span>🕹Allqueue blog</span>,
   project: {
     link: 'https://github.com/allqueue',
   },
