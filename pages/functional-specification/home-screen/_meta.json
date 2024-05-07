@@ -1,7 +1,7 @@
 {
-  "game-matching-button": "게임 매칭 버튼",
-  "player-list": "플레이어 리스트",
-  "player-search": "플레이어 검색",
-  "search-fileter-position": "검색 필터-선호 포지션",
-  "search-fileter-sorting": "검색 필터-정렬"
+  "ft5-game-matching-button": "게임 매칭 버튼",
+  "ft6-player-list": "플레이어 리스트",
+  "ft7-player-search": "플레이어 검색",
+  "ft8-search-fileter-position": "검색 필터-선호 포지션",
+  "ft9-search-fileter-sorting": "검색 필터-정렬"
 }

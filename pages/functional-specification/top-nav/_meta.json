@@ -1,6 +1,6 @@
 {
-  "game-selector": "게임 셀렉터",
-  "login-button": "로그인 버튼",
-  "logout-button": "로그아웃 버튼",
-  "brand-identity": "BI"
+  "ft1-game-selector": "게임 셀렉터",
+  "ft2-login-button": "로그인 버튼",
+  "ft3-logout-button": "로그아웃 버튼",
+  "ft4-brand-identity": "BI"
 }
