@@ -1,0 +1,36 @@
+# 테스트 api
+
+---
+
+| Method | URL |
+| --- | --- |
+| GET | /players/metadata/`{game-code}` |
+
+### PathVariable    
+
+| Name | Required/optional | Description |
+| --- | --- | --- |
+| game-code | Required | 게임에 대한 고유한 code |
+
+### RequestBody    
+
+| Name | Required/optional | Description |
+| --- | --- | --- |
+|  |  |  |
+
+### ResponseBody
+
+- 200 *OK* - 성공
+
+```jsx
+[
+    {
+        "" : "번역을 위한 code or 그냥 영문?",
+        "code" : "code"
+    },
+    {
+        //...
+    }
+]
+
+```
