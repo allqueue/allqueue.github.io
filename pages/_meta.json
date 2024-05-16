@@ -2,5 +2,6 @@
   "index": "환영합니다!👋",
   "common": "공통 문서함",
   "functional-specification": "기능 명세서",
-  "feature-development-priority-setting": "기능 개발 우선순위"
+  "feature-development-priority-setting": "기능 개발 우선순위",
+  "api-docs": "API 명세서"
 }
