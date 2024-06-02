@@ -1,0 +1,50 @@
+import { Callout } from "nextra/components";
+
+
+# 브랜치 생성 규칙
+
+## github issue 등록
+
+allqueue github에서 issue 를 생성하고자 하는 repository 를 선택 후 issue 먼저 생성합니다
+
+## issue 기반 브랜치 생성
+
+생성된 이슈에서 `create a branch` 를 통하여 브랜치를 생성합니다 이때 `브랜치 생성 규칙`을 따릅니다
+
+## 고정 브랜치
+- main
+- dev
+
+##  유동 브랜치
+`<issue number>/<task tag>/<task name>`
+
+### example
+
+```text filename="sample"
+34/feature/login-button
+12/fix/always-login-failure
+23/test/api-endpoint-validation
+89/chore/update-dependencies
+56/style/format-codebase
+34/doc/add-installation-instructions
+78/refactor/optimize-database-queries
+```
+
+### task tags
+- feature
+- fix
+- test
+- chore(코드 변경 없이 설정만을 변경한 경우)
+- style
+- doc
+- refactor
+
+## 브랜치 PR 순서
+
+`feature -> dev -> main`
+
+**PR 메시지같은 건 별도로 알아서**
+
+<Callout type="info" emoji="ℹ">
+dev -> main 의 PR은 release 기 때문에, 전체 회의 후 정합니다 
+</Callout>
