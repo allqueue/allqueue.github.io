@@ -1,0 +1,17 @@
+# REST API Response 규칙
+
+## 성공 실패 모두 code, detail, message 등을 고정
+
+status : any
+
+```json filename="response example"
+{
+    "code" : 0, // 공통 proto 파일을 이용하여 열거타입을 관리한다
+    "message" : "SUCCESS",
+    "detail" : {
+        "name" : "lol",
+        "code" : 1,
+        "etc" : "~~~"
+    }
+}
+```
